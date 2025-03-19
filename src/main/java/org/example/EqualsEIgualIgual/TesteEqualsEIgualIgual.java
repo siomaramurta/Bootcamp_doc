@@ -1,12 +1,12 @@
-package org.example.ExemploEqualsEIgualIgual;
+package org.example.EqualsEIgualIgual;
 
 public class TesteEqualsEIgualIgual {
 
     public static void main(String[] args) {
-        String nome1 = "Gustavo";
-        String nome2 = "Gustavo";
-        String nome3 = new String("Gustavo");
-        String nome4 = "gustavo";
+        String nome1 = "Fulano";
+        String nome2 = "Fulano";
+        String nome3 = new String("Fulano");
+        String nome4 = "fulano";
 
         System.out.println("(nome1 == nome2): " + (nome1 == nome2));
         System.out.println("(nome1 == nome3): " + (nome1 == nome3));
